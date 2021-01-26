@@ -9,15 +9,23 @@
 </head>
 <body>
     <h1>Sign Up Today</h1>
-    <h2>Fill in this quick form</h2>
+    <h2>Create your own profile today!</h2>
     <form>
         <label>
+            Username:
+            <input type="text" id='usernameInput' autocomplete="off"/>
+        </label>
+        <label>
             First Name:
-            <input type="text" />
+            <input type="text" id='firstNameInput'  autocomplete="off"/>
         </label>
         <label>
             Surname:
-            <input type="text" />
+            <input type="text" id='surnameInput' autocomplete="off"/>
+        </label>
+        <label>
+            Date of birth:
+            <input type="date" id='dateOfBirthInput'/>
         </label>
         <button type="submit">Submit</button>
     </form>
